@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Walking",
-    "path": "folders/Sprites/Player/Walking.yy",
+    "name": "walking",
+    "path": "folders/Sprites/Player/walking.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_player_left",
