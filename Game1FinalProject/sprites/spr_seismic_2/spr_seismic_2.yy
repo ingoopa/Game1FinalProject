@@ -113,8 +113,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "attack",
-    "path": "folders/Sprites/Player/attack.yy",
+    "name": "seismic",
+    "path": "folders/Sprites/seismic.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_seismic_2",

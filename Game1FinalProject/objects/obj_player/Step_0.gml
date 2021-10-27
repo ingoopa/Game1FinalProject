@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(!enabled) exit; //disables player to enact sequences
+
 //checking if keys are being pressed
 var left = keyboard_check(ord("A"));
 var right = keyboard_check(ord("D"));
