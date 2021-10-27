@@ -96,10 +96,6 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e285761a-60b9-4f73-88cd-3d82b7fae184","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
-  "parent": {
-    "name": "seismic",
-    "path": "folders/Sprites/Player/seismic.yy",
-  },
   "resourceVersion": "1.0",
   "name": "spr_seismic_1",
   "tags": [],
