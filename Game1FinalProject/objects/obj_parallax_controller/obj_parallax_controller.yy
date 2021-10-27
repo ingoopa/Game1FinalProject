@@ -28,7 +28,7 @@
     "path": "folders/Objects/Controllers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_paralax_controller",
+  "name": "obj_parallax_controller",
   "tags": [],
   "resourceType": "GMObject",
 }
