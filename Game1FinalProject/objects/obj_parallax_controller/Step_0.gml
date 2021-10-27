@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 var _cx = camera_get_view_x(view_camera[0]); //gets current x position of camera
-
 var _xspd = 2 * ( (keyboard_check(ord("D"))) - (keyboard_check(ord("A"))) );
 
 _cx += _xspd; //x position changes based of xspd
