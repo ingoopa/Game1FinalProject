@@ -4,13 +4,16 @@
 //checking if keys are being pressed
 var left = keyboard_check(ord("A"));
 var right = keyboard_check(ord("D"));
-//var jump = keyboard_check(ord("W"));
-var attack = keyboard_check(ord("O"));
-var seismic = keyboard_check(ord("P"));
+//var attack = keyboard_check(ord("O"));
+//var seismic = keyboard_check(ord("P"));
 
 x_velocity = (right - left) * walk_speed;
 
 x += x_velocity;	//prob need to change this when adding backgrounds
+if(x < (bbox_width/2.0)){
+	x = bbox_width/2.0;
+}
+
 
 //BASIC JUMP MECHANICS
 y_velocity += obj_game_controller.game_gravity;
