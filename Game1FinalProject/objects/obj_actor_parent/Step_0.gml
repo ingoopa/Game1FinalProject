@@ -9,12 +9,12 @@ y += vspd;
 
 //Sprites
 if(spd){
-	sprite_index = obj_player.spr_walk;
+	sprite_index = sprWalk;
 	
 	//Flip
-	image_xscale = sign(hspd);
-	if(image_xscale == 0) image_xscale = 1;
+	image_xscale = sign(hspd) * 3;
+	if(image_xscale == 0) image_xscale = 3;
 }
 else{
-	sprite_index = obj_player.spr_idle;	
+	sprite_index = sprIdle;	
 }

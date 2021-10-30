@@ -35,5 +35,5 @@ if(global.ctsPos >= 0){
 	if(global.ctsPos >= array_length_2d(global.ctsAnims, global.ctsType)){
 		global.ctsPos = -1;
 		global.ctsType = -1;
-		}
+	}
 }

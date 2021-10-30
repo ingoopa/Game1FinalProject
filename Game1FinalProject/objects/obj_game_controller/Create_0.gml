@@ -16,6 +16,6 @@ enum atype{		//stores actions that "actors" can perform
 }
 
 //CUTSCENE: test
-scp_add_anim(cts.test, obj_player, atype.move, [64, 0]);
-scp_add_anim(cts.test, obj_player, atype.move, [16, 180]);
+scp_add_anim(cts.test, obj_player, atype.move, [128, 0]);
+scp_add_anim(cts.test, obj_player, atype.move, [64, 180]);
 scp_cutscene_start(cts.test);
