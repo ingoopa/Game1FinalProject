@@ -18,4 +18,5 @@ switch(anim_state){
 		sprite_index = spr_running_right;
 		image_speed = anim_speed;
 		break;
+	
 }

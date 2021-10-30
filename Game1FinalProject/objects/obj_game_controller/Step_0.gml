@@ -29,6 +29,10 @@ if(global.ctsPos >= 0){
 				actor.movedDist = 0;
 			}
 			break;
+		
+		case atype.idle:
+			
+			break;
 			
 	}
 	

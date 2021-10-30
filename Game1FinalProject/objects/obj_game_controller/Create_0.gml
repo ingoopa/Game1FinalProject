@@ -7,15 +7,17 @@ global.ctsAnims = [];	//stores actions in cutscenes
 
 //cutscenes
 enum cts{	//cutscene types
-	test	
+	intro	
 }
 
 //animations
 enum atype{		//stores actions that "actors" can perform
-	move	
+	move,
+	idle
 }
 
-//CUTSCENE: test
-scp_add_anim(cts.test, obj_player, atype.move, [128, 0]);
-scp_add_anim(cts.test, obj_player, atype.move, [64, 180]);
-scp_cutscene_start(cts.test);
+//CUTSCENE: intro
+//scp_add_anim(cts.intro, obj_player, atype.idle, [0, 0]);
+scp_add_anim(cts.intro, obj_player, atype.move, [300, 0]);
+//scp_add_anim(cts.intro, obj_player, atype.move, [64, 180]);
+scp_cutscene_start(cts.intro);
