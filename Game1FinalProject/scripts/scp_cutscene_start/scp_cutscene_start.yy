@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scp_cutscene_star",
+  "name": "scp_cutscene_start",
   "tags": [],
   "resourceType": "GMScript",
 }

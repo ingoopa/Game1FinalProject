@@ -7,11 +7,6 @@
 // @arg3 [data], array with the data for the action
 
 function scp_add_anim(_cts, _actor, _atype, _data){
-//args
-//var _cts = argument[0];
-//var _actor = argument[1];
-//var _atype = argument[2];
-//var _data = argument[3];
 
 	//array size
 	var size = array_length_2d(global.ctsAnims, _cts);

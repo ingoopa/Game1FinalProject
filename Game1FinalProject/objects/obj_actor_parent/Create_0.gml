@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //movement
-move_speed = 1;
+move_speed = 2;
 
 spd = 0;
 dir = 0;
