@@ -6,7 +6,7 @@
   "playbackSpeedType": 0,
   "autoRecord": true,
   "volume": 1.0,
-  "length": 60.0,
+  "length": 48.0,
   "events": {
     "Keyframes": [],
     "resourceVersion": "1.0",
@@ -47,7 +47,15 @@
   "backdropYOffset": 0.0,
   "xorigin": 0,
   "yorigin": 0,
-  "eventToFunction": {},
+  "eventToFunction": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": "",
+    "4": "",
+    "5": "",
+    "6": "",
+  },
   "eventStubScript": null,
   "parent": {
     "name": "Player",

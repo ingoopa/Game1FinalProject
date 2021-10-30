@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_temp_ground",
-    "path": "sprites/spr_temp_ground/spr_temp_ground.yy",
+    "name": "spr_collidable",
+    "path": "sprites/spr_collidable/spr_collidable.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_temp_ground",
+  "name": "obj_collidable",
   "tags": [],
   "resourceType": "GMObject",
 }

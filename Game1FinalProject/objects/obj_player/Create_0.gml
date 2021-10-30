@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
 
-//scale of sprite on screen
+sprIdle = spr_player_idle_right;
+sprWalk = spr_running_right;
+
 image_xscale = 3;
 image_yscale = 3;
