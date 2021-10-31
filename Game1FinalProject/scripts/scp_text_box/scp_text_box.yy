@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Animations",
-    "path": "folders/Scripts/Animations.yy",
+    "name": "Text",
+    "path": "folders/Scripts/Text.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scp_cutscene_start",
+  "name": "scp_text_box",
   "tags": [],
   "resourceType": "GMScript",
 }
