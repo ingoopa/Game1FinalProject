@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Animations",
+    "path": "folders/Scripts/Animations.yy",
   },
   "resourceVersion": "1.0",
   "name": "scp_cutscene_start",
