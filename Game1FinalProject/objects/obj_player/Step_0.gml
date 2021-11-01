@@ -34,8 +34,8 @@ if(global.ctsPos == -1){
 		
 		if(y_velocity >= 0) is_falling = true;
 			
-		if( (y + (sprite_height/2)) >= (room_height - 50)){
-			y = (room_height - 50) - (sprite_height/2);
+		if( (y + (sprite_height/2)) >= (room_height - 120)){
+			y = (room_height - 120) - (sprite_height/2);
 			y_velocity = 0;
 			on_ground = true;
 			in_air = false;
