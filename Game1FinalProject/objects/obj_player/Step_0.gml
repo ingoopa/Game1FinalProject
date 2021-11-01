@@ -11,8 +11,6 @@ if(global.ctsPos == -1){
 	var predictedX = x + x_velocity;
 	var predictedY = y + y_velocity;
 	
-	
-	
 	//collision movement
 	if(!place_meeting(predictedX, y, obj_collidable)){	//x movement
 		x += x_velocity;	
@@ -34,8 +32,8 @@ if(global.ctsPos == -1){
 		
 		if(y_velocity >= 0) is_falling = true;
 			
-		if( (y + (sprite_height/2)) >= (room_height - 50)){
-			y = (room_height - 50) - (sprite_height/2);
+		if( (y + (sprite_height/2)) >= (room_height)){
+			y = (room_height) - (sprite_height/2);
 			y_velocity = 0;
 			on_ground = true;
 			in_air = false;
