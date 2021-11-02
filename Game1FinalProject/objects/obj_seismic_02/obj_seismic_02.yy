@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_seismic_1",
-    "path": "sprites/spr_seismic_1/spr_seismic_1.yy",
+    "name": "spr_seismic_2",
+    "path": "sprites/spr_seismic_2/spr_seismic_2.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "name": "Seismic",
+    "path": "folders/Objects/Player/Seismic.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_seismic_sense",
+  "name": "obj_seismic_02",
   "tags": [],
   "resourceType": "GMObject",
 }

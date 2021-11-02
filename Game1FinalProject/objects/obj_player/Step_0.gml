@@ -21,11 +21,20 @@ if(global.ctsPos == -1){
 	else{
 		//x collision code
 		predictedX = x;
-		while(!place_meeting(predictedX, y, obj_collidable)){
-			predictedX += sign(x_velocity);	//moving one pixel at a time	
+		
+		if(keyboard_check(vk_space)) {
+			if(x_velocity > 0) obj_collidable.x += 2;
+			else if (x_velocity < 0) obj_collidable.x -= 2;
 		}
-		predictedX -= sign(x_velocity); //undo 1 pixel
-		x = predictedX;
+		
+		else{
+			
+			while(!place_meeting(predictedX, y, obj_collidable)){
+				predictedX += sign(x_velocity);	//moving one pixel at a time	
+			}
+			predictedX -= sign(x_velocity); //undo 1 pixel
+			x = predictedX;
+		}
 	}
 	
 	if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!)
@@ -68,8 +77,10 @@ if(global.ctsPos == -1){
 			facing = 2;
 		}
 	}
-	
-	if(distance_to_object(obj_pager) <= 5 && (keyboard_check_pressed(vk_space))){
+
+
+	//PICKING UP OBJECTS !!
+	if(distance_to_object(obj_pager) <= 5 && (keyboard_check_pressed(ord("F")))){
 			has_pager = true;
 	}
 	
