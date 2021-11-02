@@ -47,7 +47,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "path": "folders/Objects/Text/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_player",

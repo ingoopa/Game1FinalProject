@@ -1,4 +1,4 @@
-/// @description Moving from text to text
+/// @description Insert description here
 // You can write your code in this editor
 var _len = string_length(text[text_current]);
 

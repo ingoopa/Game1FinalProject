@@ -13,10 +13,12 @@ enum cts{	//cutscene types
 //animations
 enum atype{		//stores actions that "actors" can perform
 	move,
-	idle
+	idle,
+	pager
 }
 
 //CUTSCENE: intro
 scp_add_anim(cts.intro, obj_player, atype.move, [200, 0]);
-//scp_add_anim(cts.intro, obj_player, atype.move, [64, 180]);
+scp_add_anim(cts.intro, obj_pager, atype.pager, [0, 0]);
+scp_add_anim(cts.intro, obj_pager, atype.pager, [0, 0]);
 scp_cutscene_start(cts.intro);

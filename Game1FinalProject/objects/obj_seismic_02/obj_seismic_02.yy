@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_pager",
-    "path": "sprites/spr_pager/spr_pager.yy",
+    "name": "spr_seismic_2",
+    "path": "sprites/spr_seismic_2/spr_seismic_2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_actor_parent",
-    "path": "objects/obj_actor_parent/obj_actor_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Interactable",
-    "path": "folders/Objects/Interactable.yy",
+    "name": "Seismic",
+    "path": "folders/Objects/Text/Player/Seismic.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pager",
+  "name": "obj_seismic_02",
   "tags": [],
   "resourceType": "GMObject",
 }
