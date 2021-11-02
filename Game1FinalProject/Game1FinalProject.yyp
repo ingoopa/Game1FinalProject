@@ -1,12 +1,12 @@
 {
   "resources": [
     {"id":{"name":"spr_running_right","path":"sprites/spr_running_right/spr_running_right.yy",},"order":0,},
+    {"id":{"name":"spr_player_jump_left","path":"sprites/spr_player_jump_left/spr_player_jump_left.yy",},"order":1,},
     {"id":{"name":"spr_pager","path":"sprites/spr_pager/spr_pager.yy",},"order":0,},
     {"id":{"name":"bg_avery_5","path":"sprites/bg_avery_5/bg_avery_5.yy",},"order":4,},
     {"id":{"name":"obj_level1_text","path":"objects/obj_level1_text/obj_level1_text.yy",},"order":0,},
     {"id":{"name":"scp_cutscene_start","path":"scripts/scp_cutscene_start/scp_cutscene_start.yy",},"order":1,},
     {"id":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},"order":0,},
-    {"id":{"name":"spr_player_jump_left","path":"sprites/spr_player_jump_left/spr_player_jump_left.yy",},"order":1,},
     {"id":{"name":"obj_pager","path":"objects/obj_pager/obj_pager.yy",},"order":0,},
     {"id":{"name":"bg_avery_2","path":"sprites/bg_avery_2/bg_avery_2.yy",},"order":1,},
     {"id":{"name":"obj_parallax_controller","path":"objects/obj_parallax_controller/obj_parallax_controller.yy",},"order":1,},
@@ -25,6 +25,7 @@
     {"id":{"name":"spr_collidable","path":"sprites/spr_collidable/spr_collidable.yy",},"order":1,},
     {"id":{"name":"spr_running_left","path":"sprites/spr_running_left/spr_running_left.yy",},"order":2,},
     {"id":{"name":"bg_avery_4","path":"sprites/bg_avery_4/bg_avery_4.yy",},"order":3,},
+    {"id":{"name":"spr_pickup_right","path":"sprites/spr_pickup_right/spr_pickup_right.yy",},"order":0,},
     {"id":{"name":"scp_add_anim","path":"scripts/scp_add_anim/scp_add_anim.yy",},"order":0,},
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},"order":1,},
     {"id":{"name":"bg_temp_sky","path":"sprites/bg_temp_sky/bg_temp_sky.yy",},"order":4,},
@@ -52,6 +53,7 @@
     {"id":{"name":"ft_text","path":"fonts/ft_text/ft_text.yy",},"order":0,},
     {"id":{"name":"obj_seismic_02","path":"objects/obj_seismic_02/obj_seismic_02.yy",},"order":1,},
     {"id":{"name":"spr_player_idle_right","path":"sprites/spr_player_idle_right/spr_player_idle_right.yy",},"order":0,},
+    {"id":{"name":"spr_pickup_left","path":"sprites/spr_pickup_left/spr_pickup_left.yy",},"order":1,},
     {"id":{"name":"obj_title_text","path":"objects/obj_title_text/obj_title_text.yy",},"order":2,},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},"order":0,},
   ],
@@ -112,6 +114,8 @@
     {"folderPath":"folders/Sprites/Backgrounds/Level 1/Avery.yy","order":2,"resourceVersion":"1.0","name":"Avery","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Player/Seismic.yy","order":3,"resourceVersion":"1.0","name":"Seismic","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Interactable.yy","order":7,"resourceVersion":"1.0","name":"Interactable","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Level Platforms.yy","order":8,"resourceVersion":"1.0","name":"Level Platforms","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Player/pickup.yy","order":8,"resourceVersion":"1.0","name":"pickup","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
