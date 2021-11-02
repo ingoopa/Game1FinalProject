@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //text array that holds all the different text boxes for game
-text[0] = "WASD to move";
+text[0] = "Use D to move forward and A to move backward";
 text[1] = "Press F to pick up objects";
 
 text_current = 0;	//current text position in text array

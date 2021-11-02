@@ -2,6 +2,8 @@
 // You can write your code in this editor
 event_inherited();
 
-if(obj_player.has_pager == true){
-	instance_destroy(self);	
-}
+sprWalk = spr_pager;
+sprIdle = spr_pager;
+
+image_index = 1;
+image_speed = 0;
