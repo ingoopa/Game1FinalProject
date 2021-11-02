@@ -19,7 +19,6 @@
     {"id":{"name":"bg_temp_background","path":"sprites/bg_temp_background/bg_temp_background.yy",},"order":0,},
     {"id":{"name":"spr_player_idle_left","path":"sprites/spr_player_idle_left/spr_player_idle_left.yy",},"order":1,},
     {"id":{"name":"obj_controls_text","path":"objects/obj_controls_text/obj_controls_text.yy",},"order":1,},
-    {"id":{"name":"spr_rock_1","path":"sprites/spr_rock_1/spr_rock_1.yy",},"order":0,},
     {"id":{"name":"spr_player_jump_right","path":"sprites/spr_player_jump_right/spr_player_jump_right.yy",},"order":0,},
     {"id":{"name":"spr_seismic_2","path":"sprites/spr_seismic_2/spr_seismic_2.yy",},"order":1,},
     {"id":{"name":"obj_seismic_01","path":"objects/obj_seismic_01/obj_seismic_01.yy",},"order":0,},
