@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Seismic",
-    "path": "folders/Objects/Text/Player/Seismic.yy",
+    "path": "folders/Objects/Player/Seismic.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_seismic_02",

@@ -31,13 +31,16 @@ if(global.ctsPos >= 0){
 			break;
 		
 		case atype.idle:
-			actor.spd = actor.move_speed;
+			global.ctsPos++;
 			break;
 			
 		case atype.pager:
-			instance_create_layer(actor.x, actor.y, "Instances", obj_seismic_02);
+			instance_create_layer(actor.x + 16, actor.y + 16, "Instances", obj_seismic_02);
 			global.ctsPos++;
+			break;
 			
+		case atype.text:
+			instance_create_layer(100, 100, "Instances", obj_level1_text);
 			break;
 			
 	}
