@@ -12,8 +12,8 @@ if(spd){
 	sprite_index = sprWalk;
 	
 	//Flip
-	image_xscale = sign(hspd) * 3;
-	if(image_xscale == 0) image_xscale = 3;
+	image_xscale = sign(hspd);
+	if(image_xscale == 0) image_xscale = 1;
 }
 else{
 	sprite_index = sprIdle;	
