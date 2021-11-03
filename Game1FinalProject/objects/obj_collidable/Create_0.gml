@@ -3,3 +3,11 @@
 
 image_index = 0;
 image_speed = 0;
+if (is_moving){
+	if (obj_player.facing == 1){
+		x++;
+	}
+	else if (obj_player.facing == 2){
+		x--;
+	}
+}

@@ -5,6 +5,7 @@ event_inherited();	//pertaining to cutscenes
 //keyboard controls for movement
 var left = keyboard_check(ord("A"));
 var right = keyboard_check(ord("D"));
+var pickup = keyboard_check(ord("F"));
 
 //check to see if there's a cutscene in progress
 if(global.ctsPos == -1){
@@ -21,20 +22,12 @@ if(global.ctsPos == -1){
 	else{
 		//x collision code
 		predictedX = x;
-		
-		if(keyboard_check(vk_space)) {
-			if(x_velocity > 0) obj_collidable.x += 2;
-			else if (x_velocity < 0) obj_collidable.x -= 2;
+		while(!place_meeting(predictedX, y, obj_collidable)){
+			predictedX += sign(x_velocity);	//moving one pixel at a time	
 		}
+		predictedX -= sign(x_velocity); //undo 1 pixel
+		x = predictedX;
 		
-		else{
-			
-			while(!place_meeting(predictedX, y, obj_collidable)){
-				predictedX += sign(x_velocity);	//moving one pixel at a time	
-			}
-			predictedX -= sign(x_velocity); //undo 1 pixel
-			x = predictedX;
-		}
 	}
 	
 	if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!)
@@ -65,23 +58,46 @@ if(global.ctsPos == -1){
 	
 	//movement controls
 	if((right - left) == 0){ //idle
-		anim_state = 0;
+		
+		//PICKING UP OBJECTS !!
+		if(distance_to_object(obj_pager) <= 5 && (pickup)){
+				has_pager = true;
+				anim_state = 3;
+		}
+		//just idle
+		else anim_state = 0;
 	}
 	else{
 		if((right - left) < 0){ //moving left
-			anim_state = 1;	
-			facing = 1;
+			//pushing objects while moving left
+			if( (distance_to_object(obj_collidable) <= 5) && keyboard_check(vk_space)) {
+				//obj_collidable.is_moving = true;
+				if(x_velocity > 0) obj_collidable.x += 2;
+				else if (x_velocity < 0) obj_collidable.x -= 2;
+				anim_state = 4;
+			}
+			//running left
+			else{
+				anim_state = 1;	
+				facing = 1;
+			}
 		}
 		else if((right - left) > 0){ //moving right
-			anim_state = 2;	
-			facing = 2;
+			//pushing objects while moving right
+			if( (distance_to_object(obj_collidable) <= 5) && keyboard_check(vk_space)) {
+				//obj_collidable.is_moving = true;
+				if(x_velocity > 0) obj_collidable.x += 2;
+				else if (x_velocity < 0) obj_collidable.x -= 2;
+				anim_state = 4;
+			}
+			//running right
+			else{
+				anim_state = 2;	
+				facing = 2;
+			}
 		}
 	}
 
-
-	//PICKING UP OBJECTS !!
-	if(distance_to_object(obj_pager) <= 5 && (keyboard_check_pressed(ord("F")))){
-			has_pager = true;
-	}
+	
 	
 }

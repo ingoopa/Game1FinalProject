@@ -19,4 +19,16 @@ switch(anim_state){
 		image_speed = anim_speed;
 		break;
 	
+	case 3: //PICKUP
+		if(facing == 1) sprite_index = spr_pickup_left;
+		else if (facing == 2) sprite_index = spr_pickup_right;
+		image_speed = anim_speed;
+		break;
+		
+	case 4: //PUSH
+		if (facing == 1) sprite_index = spr_player_push_left;
+		else if (facing == 2) sprite_index = spr_player_push_right;
+		image_speed = anim_speed;
+		break;
+	
 }
