@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 if(global.ctsPos >= 0){
 	var anim = global.ctsAnims[global.ctsType, global.ctsPos];
 	var actor = anim[0];
