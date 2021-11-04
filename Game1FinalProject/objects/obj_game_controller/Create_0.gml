@@ -23,7 +23,7 @@ enum atype{		//stores actions that "actors" can perform
 scp_add_anim(cts.intro, obj_player, atype.move, [200, 0]);
 scp_add_anim(cts.intro, obj_player, atype.idle, [0, 0]);
 scp_add_anim(cts.intro, obj_pager, atype.pager, [0, 0]);
-scp_cutscene_start(cts.intro);
+//scp_cutscene_start(cts.intro);
 
 /*CUTSCENE: obtained_pager
 if(distance_to_object(obj_pager) <= 5){
