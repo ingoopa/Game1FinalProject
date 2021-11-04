@@ -1,0 +1,48 @@
+{
+  "spriteId": {
+    "name": "spr_tilesheet_wip",
+    "path": "sprites/spr_tilesheet_wip/spr_tilesheet_wip.yy",
+  },
+  "tileWidth": 64,
+  "tileHeight": 64,
+  "tilexoff": 16,
+  "tileyoff": 0,
+  "tilehsep": 0,
+  "tilevsep": 0,
+  "spriteNoExport": true,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "out_tilehborder": 2,
+  "out_tilevborder": 2,
+  "out_columns": 2,
+  "tile_count": 6,
+  "autoTileSets": [],
+  "tileAnimationFrames": [],
+  "tileAnimationSpeed": 15.0,
+  "tileAnimation": {
+    "FrameData": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+    ],
+    "SerialiseFrameCount": 1,
+  },
+  "macroPageTiles": {
+    "SerialiseWidth": 0,
+    "SerialiseHeight": 0,
+    "TileSerialiseData": [],
+  },
+  "parent": {
+    "name": "Level Platforms",
+    "path": "folders/Tile Sets/Level Platforms.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "ts_wip_1",
+  "tags": [],
+  "resourceType": "GMTileSet",
+}
