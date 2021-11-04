@@ -49,6 +49,7 @@
     {"id":{"name":"scp_string_wrap","path":"scripts/scp_string_wrap/scp_string_wrap.yy",},"order":1,},
     {"id":{"name":"seq_seismic_sense","path":"sequences/seq_seismic_sense/seq_seismic_sense.yy",},"order":1,},
     {"id":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"order":0,},
+    {"id":{"name":"spr_enemy_1_idle","path":"sprites/spr_enemy_1_idle/spr_enemy_1_idle.yy",},"order":0,},
     {"id":{"name":"spr_test_1","path":"sprites/spr_test_1/spr_test_1.yy",},"order":0,},
     {"id":{"name":"bg_avery_6","path":"sprites/bg_avery_6/bg_avery_6.yy",},"order":5,},
     {"id":{"name":"rm_title_card","path":"rooms/rm_title_card/rm_title_card.yy",},"order":1,},
@@ -122,6 +123,7 @@
     {"folderPath":"folders/Sprites/Player/pickup.yy","order":8,"resourceVersion":"1.0","name":"pickup","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Tile Sets/Level Platforms.yy","order":1,"resourceVersion":"1.0","name":"Level Platforms","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Player/pushing.yy","order":9,"resourceVersion":"1.0","name":"pushing","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Enemies/Enemy 1.yy","order":1,"resourceVersion":"1.0","name":"Enemy 1","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
