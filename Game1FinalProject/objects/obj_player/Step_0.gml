@@ -1,5 +1,8 @@
 /// @description where the magic happens
 
+if (is_attacking) exit;
+if(is_picking_up) exit;
+
 if(keyboard_check(ord("A"))) {self.left_frames++;} else {self.left_frames = 0;}
 if(keyboard_check(ord("D"))) {self.right_frames++;} else {self.right_frames = 0;}
 //if(keyboard_check_pressed(ord("F"))) {self.pickup_frames++;} else {self.pickup_frames = 0;}
@@ -40,10 +43,14 @@ else{ //running
 
 if (key_pickup){ //picking up objects
 	anim_state = 2;	
+	is_picking_up = true;
+	alarm[1] = pickup_time * room_speed;
 }
 	
 if (attack){
 	anim_state = 4; 
+	is_attacking = true;
+	alarm[0] = attack_time * room_speed;
 }
 
 if(push){
