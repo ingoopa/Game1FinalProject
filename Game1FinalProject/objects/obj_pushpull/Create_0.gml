@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+x_velocity = 0;
+y_velocity = 0;
 
-image_index = 1;
-image_speed = 0;
-
-alarm[0] = 1;
+interaction_radius = (sprite_width/2);

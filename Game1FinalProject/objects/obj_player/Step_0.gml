@@ -1,29 +1,63 @@
 /// @description where the magic happens
 
-event_inherited();	//for cutscene purposes, probably not going to be used for now
-
 if(keyboard_check(ord("A"))) {self.left_frames++;} else {self.left_frames = 0;}
 if(keyboard_check(ord("D"))) {self.right_frames++;} else {self.right_frames = 0;}
-if(keyboard_check_pressed(ord("F"))) {self.pickup_frames++;} else {self.pickup_frames = 0;}
+//if(keyboard_check_pressed(ord("F"))) {self.pickup_frames++;} else {self.pickup_frames = 0;}
 if(keyboard_check(vk_space)) {self.push_frames++;} else {self.push_frames = 0;}
 
 //keyboard controls for movement
 var left = sign(left_frames);
 var right = sign(right_frames);
-var pickup = sign(pickup_frames);
+//var pickup = sign(pickup_frames);
 var push = sign(push_frames);
-var attack = keyboard_check(ord("O"));
+var attack = keyboard_check_pressed(ord("O"));
+
+key_pickup = keyboard_check_pressed(ord("F"));
+interaction_radius = image_xscale;
 
 x_velocity = (right - left) * walk_speed;
-	
+
 var predictedX = x + x_velocity;
 var predictedY = y + y_velocity;
+
+//movement controls
+if((right - left) == 0){ //idle
+	anim_state = 0;
+}
+else{ //running
+	switch(max(left_frames, right_frames)){
+		case left_frames:
+			anim_state = 1;
+			facing = 1;
+			break;
+			
+		case right_frames:
+			anim_state = 1;
+			facing = 2;
+			break;
+	}
+}
+
+if (key_pickup){ //picking up objects
+	anim_state = 2;	
+}
 	
+if (attack){
+	anim_state = 4; 
+}
+
+if(push){
+	if(distance_to_object(obj_push) <= (interaction_radius)){
+		anim_state = 3;
+		obj_push.x += x_velocity;	
+	}
+}
+
 //collision movement
 if(!place_meeting(predictedX, y, obj_collidable)){	//x movement
 	x += x_velocity;	
 }
-	
+
 else{ //x collision code
 	predictedX = x;
 	while(!place_meeting(predictedX, y, obj_collidable)){
@@ -32,8 +66,6 @@ else{ //x collision code
 	predictedX -= sign(x_velocity); //undo 1 pixel
 	x = predictedX;
 }
-
-
 
 if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!) 
 	y_velocity += obj_game_controller.game_gravity;
@@ -63,49 +95,78 @@ else{ //y collision code
 	y = predictedY;
 }
 
-
-//movement controls
-if((right - left) == 0){ //idle
-	anim_state = 0;
-}
-else{
-	switch(max(left_frames, right_frames)){
-		
-		case left_frames:
-			anim_state = 1;
-			facing = 1;
-			break;
-			
-		case right_frames:
-			anim_state = 2;
-			facing = 2;
-			break;
-		
-	}
+/*
+#region
+	scr_collision(obj_push);
 	
+	#region
+		var instance = instance_place(x + x_velocity, y, obj_pushpull);
+		if (instance != noone){
+			instance.x_velocity = x_velocity + sign(x_velocity);	
+		}
+		
+		instance = instance_place(x, y + y_velocity, obj_pushpull);
+		if (instance != noone){
+			instance.y_velocity = y_velocity + sign(y_velocity);	
+		}
+	#endregion
+
+#endregion
+*/
+	
+/*
+if(place_meeting(predictedX, y, obj_push)){
+	while(!place_meeting(x + sign(x_velocity), y, obj_push)){
+		x += sign(x_velocity);
+		obj_push.x_vel = 0;
+	}
+//	x_velocity = 0;
+	obj_push.x_vel = x_velocity;
 }
 
-if (pickup){ //picking up objects
-	anim_state = facing + 2;	
+
+with(obj_push){
+if(place_meeting(predictedX, y, obj_collidable)){
+	while(!place_meeting(x + sign(x_vel), y, obj_collidable)){
+		x += sign(x_vel);
+	}
+	x_velocity = 0;
+	x_vel = 0;
+}	
 }
 
-if (place_meeting(x, y, obj_push)){ //pushing objects
+
+/*
+if (place_meeting(predictedX, y, obj_push)){ //pushing objects
+	predictedX = x;
+	while(!place_meeting(predictedX, y, obj_push)){
+		predictedX += sign(x_velocity);
+	}	
+	predictedX -= sign(x_velocity);
+	x = predictedX; 
+	
 	anim_state = facing + 4;
-	if(is_colliding == true) {
-		x_velocity = 0;
-	}
-	
-	else{
-		obj_push.x += x_velocity;
-		is_colliding = false;
-	}
+	obj_push.x += x_velocity;
 }
-	
-if (attack){
-	anim_state = facing + 6; 
+
+if(place_meeting(x, predictedY, obj_push)){
+	on_ground = true;
+	predictedY = y;
+	while(!place_meeting(x, predictedY, obj_push)){
+		predictedY += sign(y_velocity);
+	}
+	predictedY -= sign(y_velocity);
+	y = predictedY;
 }
+*/
 	
+
 	
+
+//scr_collision(obj_collidable);	
+
+
+
 	
 //old movement code
 	/*
