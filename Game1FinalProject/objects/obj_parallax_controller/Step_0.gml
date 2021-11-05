@@ -4,7 +4,7 @@
 var _cx = camera_get_view_x(view_camera[0]); //gets current x position of camera
 var _xspd = 2 * ( (keyboard_check(ord("D"))) - (keyboard_check(ord("A"))) );
 
-if(global.ctsPos == -1 && !place_meeting(x, y, obj_collidable)) {
+if(!place_meeting(x, y, obj_collidable)) {
 	_cx += _xspd; //x position changes based of xspd
 	camera_set_view_pos(view_camera[0], _cx, 0);
 
