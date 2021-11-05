@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+audio_play_sound(sfx_planet, 5, false);
 
 /*
 global.ctsPos = -1;		//action num that the cutscene is on
