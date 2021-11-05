@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
+/*
 global.ctsPos = -1;		//action num that the cutscene is on
 global.ctsType = -1;	//stores a cutscene currently running
 

@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_push",
-    "path": "sprites/spr_push/spr_push.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_collidable",
-    "path": "objects/obj_collidable/obj_collidable.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,11 +18,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"in_collision","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":6,"value":"\"rectangle\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+        "\"rectangle\"",
+      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"collision_type","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
@@ -36,7 +32,7 @@
     "path": "folders/Objects/Interactable.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_push",
+  "name": "obj_pushpull",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -3,7 +3,7 @@
     "name": "spr_collidable",
     "path": "sprites/spr_collidable/spr_collidable.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
