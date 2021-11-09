@@ -20,6 +20,7 @@ interaction_radius = image_xscale;
 
 x_velocity = (right - left) * walk_speed;
 
+
 var predictedX = x + x_velocity;
 var predictedY = y + y_velocity;
 
@@ -80,7 +81,7 @@ if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!)
 
 	if(y_velocity >= 0) {is_falling = true;}
 
-	if(bbox_bottom > room_height){
+	if(sprite_yoffset > room_height){
 		y = room_height - sprite_yoffset;
 		y_velocity = 0;
 	
@@ -92,14 +93,17 @@ if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!)
 	}
 }
 
+
 else{ //y collision code
-	on_ground = true;
+
+	on_ground = true; //this only applies if the player is ON TOP of the collision box
 	predictedY = y;
 	while(!place_meeting(x, predictedY, obj_collidable)){
 		predictedY += sign(y_velocity); //moving one pixel at a time	
 	}
 	predictedY -= sign(y_velocity);
 	y = predictedY;
+	
 }
 
 /*

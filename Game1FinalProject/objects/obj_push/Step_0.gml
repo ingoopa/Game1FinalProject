@@ -1,9 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*
 var predictedX = x + x_vel;
 var predictedY = y + y_vel;
-/*
+
 if(place_meeting(predictedX, y, obj_collidable)){
 	while(!place_meeting(x + sign(x_vel), y, obj_collidable)){
 		x += sign(x_vel);
