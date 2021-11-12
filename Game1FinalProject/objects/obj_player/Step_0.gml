@@ -102,6 +102,9 @@ else{ //y collision code
 	y = predictedY;
 }
 
+//slopes
+
+
 /*
 #region
 	scr_collision(obj_push);

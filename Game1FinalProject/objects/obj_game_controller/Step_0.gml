@@ -2,10 +2,6 @@
 // You can write your code in this editor
 
 
-
-
-
-
 //custscene code if you wanna use it in the future
 /*
 if(global.ctsPos >= 0){
