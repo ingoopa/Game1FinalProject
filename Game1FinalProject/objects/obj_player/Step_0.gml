@@ -3,6 +3,9 @@
 if (is_attacking) exit;
 if(is_picking_up) exit;
 
+
+
+
 if(keyboard_check(ord("A"))) {self.left_frames++;} else {self.left_frames = 0;}
 if(keyboard_check(ord("D"))) {self.right_frames++;} else {self.right_frames = 0;}
 //if(keyboard_check_pressed(ord("F"))) {self.pickup_frames++;} else {self.pickup_frames = 0;}
@@ -81,6 +84,8 @@ if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!)
 
 	if(y_velocity >= 0) {is_falling = true;}
 
+
+/*
 	if(sprite_yoffset > room_height){
 		y = room_height - sprite_yoffset;
 		y_velocity = 0;
@@ -91,6 +96,7 @@ if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!)
 		is_falling = false;
 		is_jumping = false;
 	}
+	*/
 }
 
 
