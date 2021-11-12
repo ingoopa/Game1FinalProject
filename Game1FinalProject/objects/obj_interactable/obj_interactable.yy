@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_seismic_2",
-    "path": "sprites/spr_seismic_2/spr_seismic_2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,18 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Seismic",
-    "path": "folders/Objects/Player/Seismic.yy",
+    "name": "Interactable",
+    "path": "folders/Objects/Interactable.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_seismic_02",
+  "name": "obj_interactable",
   "tags": [],
   "resourceType": "GMObject",
 }

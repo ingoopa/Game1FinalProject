@@ -15,5 +15,5 @@ else{
 	else{
 		text[text_current] = scp_string_wrap(text[text_current], text_width);
 		char_current = 0;
-	}
+	}	
 }

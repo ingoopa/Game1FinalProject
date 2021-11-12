@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-audio_play_sound(sfx_planet, 5, false);
-
+//image_speed = 1;
+//draw_sprite(spr_seismic_2, -1, obj_pager.x, obj_pager.y);
