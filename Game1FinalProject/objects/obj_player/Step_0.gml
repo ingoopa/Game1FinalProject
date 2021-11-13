@@ -5,25 +5,23 @@ if(is_picking_up) exit;
 
 
 
-
 if(keyboard_check(ord("A"))) {self.left_frames++;} else {self.left_frames = 0;}
 if(keyboard_check(ord("D"))) {self.right_frames++;} else {self.right_frames = 0;}
-//if(keyboard_check_pressed(ord("F"))) {self.pickup_frames++;} else {self.pickup_frames = 0;}
 if(keyboard_check(vk_space)) {self.push_frames++;} else {self.push_frames = 0;}
 
 //keyboard controls for movement
 var left = sign(left_frames);
 var right = sign(right_frames);
-//var pickup = sign(pickup_frames);
+
+//keyboard controls for interacting with objects
 var push = sign(push_frames);
 var attack = keyboard_check_pressed(ord("O"));
-
-key_pickup = keyboard_check_pressed(ord("F"));
+var key_pickup = keyboard_check_pressed(ord("F"));
 interaction_radius = image_xscale;
 
 x_velocity = (right - left) * walk_speed;
 
-
+//predicting collision
 var predictedX = x + x_velocity;
 var predictedY = y + y_velocity;
 
@@ -85,9 +83,9 @@ if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!)
 	if(y_velocity >= 0) {is_falling = true;}
 
 
-/*
-	if(sprite_yoffset > room_height){
-		y = room_height - sprite_yoffset;
+/* prevents player from falling off the screen
+	if((y + sprite_height/2) >= room_height){
+		y = room_height - (sprite_height/2);
 		y_velocity = 0;
 	
 		//state flags
@@ -97,6 +95,7 @@ if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!)
 		is_jumping = false;
 	}
 	*/
+	
 }
 
 

@@ -28,8 +28,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Interactable",
-    "path": "folders/Objects/Interactable.yy",
+    "name": "Controllers",
+    "path": "folders/Objects/Interactable/Controllers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pushpull",
