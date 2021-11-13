@@ -54,6 +54,7 @@
     {"id":{"name":"bg_avery_1","path":"sprites/bg_avery_1/bg_avery_1.yy",},"order":0,},
     {"id":{"name":"spr_player_melee_left","path":"sprites/spr_player_melee_left/spr_player_melee_left.yy",},"order":1,},
     {"id":{"name":"obj_camera_controller","path":"objects/obj_camera_controller/obj_camera_controller.yy",},"order":2,},
+    {"id":{"name":"spr_seismic_visible_wip","path":"sprites/spr_seismic_visible_wip/spr_seismic_visible_wip.yy",},"order":4,},
     {"id":{"name":"bg_temp_far_ground","path":"sprites/bg_temp_far_ground/bg_temp_far_ground.yy",},"order":3,},
     {"id":{"name":"sfx_siren_01","path":"sounds/sfx_siren_01/sfx_siren_01.yy",},"order":0,},
     {"id":{"name":"bg_avery_3","path":"sprites/bg_avery_3/bg_avery_3.yy",},"order":2,},
