@@ -17,6 +17,6 @@ if paused == true
 	draw_set_color(c_white);
 
 	draw_sprite(spr_lore_1, 1, (temp_w/2), (temp_h/2));
-	draw_text(temp_w/2, (temp_h) - 40, "Press Esc to Return to Game");
+	draw_text(temp_w/2, (temp_h) - 40, "Press Z to Return to Game");
 	
 }

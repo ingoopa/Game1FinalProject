@@ -13,7 +13,7 @@
     {"id":{"name":"obj_pager","path":"objects/obj_pager/obj_pager.yy",},"order":0,},
     {"id":{"name":"bg_avery_2","path":"sprites/bg_avery_2/bg_avery_2.yy",},"order":1,},
     {"id":{"name":"obj_parallax_controller","path":"objects/obj_parallax_controller/obj_parallax_controller.yy",},"order":1,},
-    {"id":{"name":"obj_item_controller","path":"objects/obj_item_controller/obj_item_controller.yy",},"order":2,},
+    {"id":{"name":"obj_item_controller","path":"objects/obj_item_controller/obj_item_controller.yy",},"order":0,},
     {"id":{"name":"spr_title_card","path":"sprites/spr_title_card/spr_title_card.yy",},"order":0,},
     {"id":{"name":"bg_01","path":"sprites/bg_01/bg_01.yy",},"order":5,},
     {"id":{"name":"bg_one_01","path":"sprites/bg_one_01/bg_one_01.yy",},"order":0,},
