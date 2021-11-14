@@ -43,16 +43,16 @@ else{ //running
 	}
 }
 
-if (key_pickup){ //picking up objects
+if (key_pickup && distance_to_object(obj_paper) <= 5){ //picking up objects
 	anim_state = 2;	
 	is_picking_up = true;
-	alarm[1] = pickup_time * room_speed;
+	alarm[1] = room_speed;
 }
 	
 if (attack && !is_jumping){
 	anim_state = 4; 
 	is_attacking = true;
-	alarm[0] = attack_time * room_speed;
+	alarm[0] = room_speed;
 }
 
 if(push){

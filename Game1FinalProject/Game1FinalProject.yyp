@@ -4,6 +4,7 @@
     {"id":{"name":"spr_player_jump_left","path":"sprites/spr_player_jump_left/spr_player_jump_left.yy",},"order":1,},
     {"id":{"name":"spr_pager","path":"sprites/spr_pager/spr_pager.yy",},"order":0,},
     {"id":{"name":"bg_avery_5","path":"sprites/bg_avery_5/bg_avery_5.yy",},"order":4,},
+    {"id":{"name":"obj_enemy_controller","path":"objects/obj_enemy_controller/obj_enemy_controller.yy",},"order":1,},
     {"id":{"name":"obj_level1_text","path":"objects/obj_level1_text/obj_level1_text.yy",},"order":0,},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":0,},
     {"id":{"name":"scp_cutscene_start","path":"scripts/scp_cutscene_start/scp_cutscene_start.yy",},"order":1,},
