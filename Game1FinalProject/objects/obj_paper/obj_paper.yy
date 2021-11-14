@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_pager",
-    "path": "sprites/spr_pager/spr_pager.yy",
+    "name": "spr_lore_1",
+    "path": "sprites/spr_lore_1/spr_lore_1.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_interactable",
-    "path": "objects/obj_interactable/obj_interactable.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,7 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +30,7 @@
     "path": "folders/Objects/Interactable/Pick Up Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pager",
+  "name": "obj_paper",
   "tags": [],
   "resourceType": "GMObject",
 }
