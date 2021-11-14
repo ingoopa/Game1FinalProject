@@ -49,16 +49,18 @@ if (key_pickup){ //picking up objects
 	alarm[1] = pickup_time * room_speed;
 }
 	
-if (attack){
+if (attack && !is_jumping){
 	anim_state = 4; 
 	is_attacking = true;
 	alarm[0] = attack_time * room_speed;
 }
 
 if(push){
-	if(distance_to_object(obj_push) <= (interaction_radius)){
-		anim_state = 3;
-		obj_push.x += x_velocity;	
+	if( ((y) >= obj_push.y) && (distance_to_object(obj_push) <= (interaction_radius)) ){ //if the player is NOT on top of the push obj and it's within a certain distance of the push obj
+		if( ((facing == 1) && (x > obj_push.x)) || ((facing == 2) && (x < obj_push.x)) ){ //stops player from "pulling" on push obj
+			anim_state = 3;
+			obj_push.x += x_velocity;
+		}
 	}
 }
 
@@ -81,33 +83,26 @@ if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!)
 	y+= y_velocity;
 
 	if(y_velocity >= 0) {is_falling = true;}
-
-
-/* prevents player from falling off the screen
-	if((y + sprite_height/2) >= room_height){
-		y = room_height - (sprite_height/2);
-		y_velocity = 0;
-	
-		//state flags
-		on_ground = true;
-		in_air = false;
-		is_falling = false;
-		is_jumping = false;
-	}
-	*/
 	
 }
 
 
 else{ //y collision code
 
-	on_ground = true; //this only applies if the player is ON TOP of the collision box
+	//state flags
+	on_ground = true; //on TOP of collision box
+	is_jumping = false;
+	in_air = false;
+	is_falling = false;
+	
+	//collision
 	predictedY = y;
 	while(!place_meeting(x, predictedY, obj_collidable)){
 		predictedY += sign(y_velocity); //moving one pixel at a time	
 	}
 	predictedY -= sign(y_velocity);
 	y = predictedY;
+	
 	
 }
 

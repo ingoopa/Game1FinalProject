@@ -11,11 +11,12 @@ if paused == true
 	draw_set_alpha(1);
 	//draw paused text here
 	
-	draw_set_halign(fa_right);
-	draw_set_valign(fa_top);
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_center);
 	draw_set_font(ft_text);
+	draw_set_color(c_white);
 
 	draw_sprite(spr_lore_1, 1, (temp_w/2), (temp_h/2));
-	draw_text(temp_w, temp_h, "Press Esc to Return to Game");
+	draw_text(temp_w/2, (temp_h) - 40, "Press Esc to Return to Game");
 	
 }
