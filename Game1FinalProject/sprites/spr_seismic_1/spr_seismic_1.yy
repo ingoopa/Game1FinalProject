@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1279,
+  "bbox_right": 767,
   "bbox_top": 0,
-  "bbox_bottom": 1307,
+  "bbox_bottom": 767,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1280,
-  "height": 1317,
+  "width": 768,
+  "height": 768,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,52 +24,96 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"50be6bf0-b5ab-48a1-918a-16c6aec0191f","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"50be6bf0-b5ab-48a1-918a-16c6aec0191f","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"423b6ff0-57d3-4bc7-8d51-b41993fe1bc8","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"50be6bf0-b5ab-48a1-918a-16c6aec0191f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5163653b-8292-440b-97de-e3a70a468926","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5163653b-8292-440b-97de-e3a70a468926","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"423b6ff0-57d3-4bc7-8d51-b41993fe1bc8","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"5163653b-8292-440b-97de-e3a70a468926","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8a6f0f57-d96d-4ef0-966b-b683f8185f48","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8a6f0f57-d96d-4ef0-966b-b683f8185f48","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"423b6ff0-57d3-4bc7-8d51-b41993fe1bc8","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"8a6f0f57-d96d-4ef0-966b-b683f8185f48","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c725b961-a8b8-4172-960c-11858f2ff9cc","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c725b961-a8b8-4172-960c-11858f2ff9cc","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"423b6ff0-57d3-4bc7-8d51-b41993fe1bc8","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"c725b961-a8b8-4172-960c-11858f2ff9cc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"df3fa3cc-5ba9-4b34-8353-0d6777c362b2","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"df3fa3cc-5ba9-4b34-8353-0d6777c362b2","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"423b6ff0-57d3-4bc7-8d51-b41993fe1bc8","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"df3fa3cc-5ba9-4b34-8353-0d6777c362b2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fd2e507f-4033-4543-9d25-772f49e62a6b","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fd2e507f-4033-4543-9d25-772f49e62a6b","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"423b6ff0-57d3-4bc7-8d51-b41993fe1bc8","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"fd2e507f-4033-4543-9d25-772f49e62a6b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a35a68ef-36a6-423c-9088-4f3ae72731e2","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a35a68ef-36a6-423c-9088-4f3ae72731e2","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"423b6ff0-57d3-4bc7-8d51-b41993fe1bc8","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"a35a68ef-36a6-423c-9088-4f3ae72731e2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cd8f9ed8-6a23-44f4-8f04-61be38d71740","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd8f9ed8-6a23-44f4-8f04-61be38d71740","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"423b6ff0-57d3-4bc7-8d51-b41993fe1bc8","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"cd8f9ed8-6a23-44f4-8f04-61be38d71740","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"baa8338b-d93c-4efa-a140-5213ef3cf77f","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"baa8338b-d93c-4efa-a140-5213ef3cf77f","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"baa8338b-d93c-4efa-a140-5213ef3cf77f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b1aeba8d-d8e1-4a6f-8cee-ac156ea35989","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b1aeba8d-d8e1-4a6f-8cee-ac156ea35989","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"b1aeba8d-d8e1-4a6f-8cee-ac156ea35989","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"da6b3253-ad8a-4edb-8380-7ca8a037c5c7","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"da6b3253-ad8a-4edb-8380-7ca8a037c5c7","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"da6b3253-ad8a-4edb-8380-7ca8a037c5c7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1ff8b8f0-aaf2-46cb-b441-85e17d66da63","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1ff8b8f0-aaf2-46cb-b441-85e17d66da63","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"1ff8b8f0-aaf2-46cb-b441-85e17d66da63","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c533a2b2-9b93-4c20-9ffe-82aef319f35f","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c533a2b2-9b93-4c20-9ffe-82aef319f35f","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"c533a2b2-9b93-4c20-9ffe-82aef319f35f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cd478419-35d8-4e13-b836-ef41fec78394","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cd478419-35d8-4e13-b836-ef41fec78394","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"cd478419-35d8-4e13-b836-ef41fec78394","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"95beed68-c74d-41f9-a2b9-eaf563f1fd82","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"95beed68-c74d-41f9-a2b9-eaf563f1fd82","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"95beed68-c74d-41f9-a2b9-eaf563f1fd82","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e470b552-c926-40f9-b976-ddbe42dc245b","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e470b552-c926-40f9-b976-ddbe42dc245b","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"e470b552-c926-40f9-b976-ddbe42dc245b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3e5847f6-e3df-47b0-89a7-211905eb3f25","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3e5847f6-e3df-47b0-89a7-211905eb3f25","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"3e5847f6-e3df-47b0-89a7-211905eb3f25","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c928ac44-0b3f-4b8a-bc38-8420095ae160","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c928ac44-0b3f-4b8a-bc38-8420095ae160","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"c928ac44-0b3f-4b8a-bc38-8420095ae160","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7ca352e8-19a6-437a-a199-f4090abe46db","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7ca352e8-19a6-437a-a199-f4090abe46db","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"7ca352e8-19a6-437a-a199-f4090abe46db","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"adfbd082-344f-4dc7-a12d-00673d24f78d","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"adfbd082-344f-4dc7-a12d-00673d24f78d","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"adfbd082-344f-4dc7-a12d-00673d24f78d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"aeb8282c-b679-4eb4-892f-8995f268520c","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"aeb8282c-b679-4eb4-892f-8995f268520c","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"aeb8282c-b679-4eb4-892f-8995f268520c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5d14384a-e626-40e5-a344-978535dfc0ec","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5d14384a-e626-40e5-a344-978535dfc0ec","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"5d14384a-e626-40e5-a344-978535dfc0ec","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"394f9935-e4d5-4369-aede-3c73ed512b8d","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"394f9935-e4d5-4369-aede-3c73ed512b8d","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"394f9935-e4d5-4369-aede-3c73ed512b8d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ef14abc1-7d3c-4651-9519-c70a979b6a39","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ef14abc1-7d3c-4651-9519-c70a979b6a39","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"ef14abc1-7d3c-4651-9519-c70a979b6a39","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"34071a4f-a8fc-4ed4-a97c-013ff423e7ee","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"34071a4f-a8fc-4ed4-a97c-013ff423e7ee","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"34071a4f-a8fc-4ed4-a97c-013ff423e7ee","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"10cc3e0f-906c-4f38-8ccb-6ac5a762f957","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"10cc3e0f-906c-4f38-8ccb-6ac5a762f957","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"10cc3e0f-906c-4f38-8ccb-6ac5a762f957","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f16aa6dc-3756-47d1-a74d-48fa37c29240","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f16aa6dc-3756-47d1-a74d-48fa37c29240","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"LayerId":{"name":"79e42685-e037-421d-87bf-5a79cf738079","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","name":"f16aa6dc-3756-47d1-a74d-48fa37c29240","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 16.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 8.0,
+    "length": 19.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e1a5451e-cf56-4d97-bda4-621c554cd606","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"50be6bf0-b5ab-48a1-918a-16c6aec0191f","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5f7b47c6-11b5-4351-af16-dbefe95e1df9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5163653b-8292-440b-97de-e3a70a468926","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5c99642b-1704-473d-856a-7998e838cb03","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8a6f0f57-d96d-4ef0-966b-b683f8185f48","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"f850746b-bd71-442e-8939-bc0811624065","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c725b961-a8b8-4172-960c-11858f2ff9cc","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"71148aaf-d1d9-40d1-8afa-853f567a40b9","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df3fa3cc-5ba9-4b34-8353-0d6777c362b2","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d1356aaf-d84d-4f59-92e2-7c640cde1732","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd2e507f-4033-4543-9d25-772f49e62a6b","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"bc59e2aa-b4d4-4027-b5ab-afb22721776c","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a35a68ef-36a6-423c-9088-4f3ae72731e2","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"b66c6932-be1d-4ac8-b684-e6f8496d0df7","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd8f9ed8-6a23-44f4-8f04-61be38d71740","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fa980273-177d-4e15-97fb-5d2838e42c28","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"baa8338b-d93c-4efa-a140-5213ef3cf77f","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1b122a87-e8af-47d0-9f6b-1c99df978281","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b1aeba8d-d8e1-4a6f-8cee-ac156ea35989","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3d20f3a5-e684-43ba-a536-930c82b8e43a","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"da6b3253-ad8a-4edb-8380-7ca8a037c5c7","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"90927ef1-23b0-4948-844f-908495972eef","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1ff8b8f0-aaf2-46cb-b441-85e17d66da63","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fc55be31-8b34-49c5-98a0-4d507006cefa","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c533a2b2-9b93-4c20-9ffe-82aef319f35f","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ee271cef-d873-4070-86c6-992d3c546686","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd478419-35d8-4e13-b836-ef41fec78394","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0e2aafe3-f190-4c04-b919-44d724bd90d5","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"95beed68-c74d-41f9-a2b9-eaf563f1fd82","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4073e0da-8ac4-43f3-bbab-0a399c234322","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e470b552-c926-40f9-b976-ddbe42dc245b","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"da58deb2-dc42-4545-90d2-9bf3ba44dd6e","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3e5847f6-e3df-47b0-89a7-211905eb3f25","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"53ce47bb-6c0c-4284-8cb0-f822dcf32924","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c928ac44-0b3f-4b8a-bc38-8420095ae160","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a3f71c6b-2118-4a1d-96bd-52c6ae427cf6","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7ca352e8-19a6-437a-a199-f4090abe46db","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"97200f95-391f-47cd-a7cc-d974c541545b","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"adfbd082-344f-4dc7-a12d-00673d24f78d","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4ff810b0-8d64-4ed9-b0a1-df5566add8c7","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aeb8282c-b679-4eb4-892f-8995f268520c","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f8a9ed32-10d9-47a7-a30b-2d00612088df","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d14384a-e626-40e5-a344-978535dfc0ec","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ed3cc181-86da-4ab7-8b1c-dbf61e7bfe16","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"394f9935-e4d5-4369-aede-3c73ed512b8d","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"27d4bc9d-f309-47c5-a8e7-cad05ed9eb84","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ef14abc1-7d3c-4651-9519-c70a979b6a39","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1af00d40-8a03-487b-9c3b-019349ccefec","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34071a4f-a8fc-4ed4-a97c-013ff423e7ee","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fdc47a68-6e32-48c1-9c85-b395b1b7be20","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"10cc3e0f-906c-4f38-8ccb-6ac5a762f957","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"15983411-ba20-432c-9df4-66edd635af38","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f16aa6dc-3756-47d1-a74d-48fa37c29240","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -82,8 +126,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 640,
-    "yorigin": 658,
+    "xorigin": 384,
+    "yorigin": 384,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_seismic_1","path":"sprites/spr_seismic_1/spr_seismic_1.yy",},
@@ -93,7 +137,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"423b6ff0-57d3-4bc7-8d51-b41993fe1bc8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"79e42685-e037-421d-87bf-5a79cf738079","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 0,
