@@ -33,6 +33,7 @@
     {"id":{"name":"spr_tilesheet_oga_1","path":"sprites/spr_tilesheet_oga_1/spr_tilesheet_oga_1.yy",},"order":2,},
     {"id":{"name":"obj_seismic_01","path":"objects/obj_seismic_01/obj_seismic_01.yy",},"order":0,},
     {"id":{"name":"spr_collidable","path":"sprites/spr_collidable/spr_collidable.yy",},"order":0,},
+    {"id":{"name":"spr_collision_visible","path":"sprites/spr_collision_visible/spr_collision_visible.yy",},"order":3,},
     {"id":{"name":"spr_running_left","path":"sprites/spr_running_left/spr_running_left.yy",},"order":2,},
     {"id":{"name":"bg_avery_4","path":"sprites/bg_avery_4/bg_avery_4.yy",},"order":3,},
     {"id":{"name":"spr_lore_1","path":"sprites/spr_lore_1/spr_lore_1.yy",},"order":0,},
