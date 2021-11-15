@@ -5,25 +5,23 @@ if(is_picking_up) exit;
 
 
 
-
 if(keyboard_check(ord("A"))) {self.left_frames++;} else {self.left_frames = 0;}
 if(keyboard_check(ord("D"))) {self.right_frames++;} else {self.right_frames = 0;}
-//if(keyboard_check_pressed(ord("F"))) {self.pickup_frames++;} else {self.pickup_frames = 0;}
 if(keyboard_check(vk_space)) {self.push_frames++;} else {self.push_frames = 0;}
 
 //keyboard controls for movement
 var left = sign(left_frames);
 var right = sign(right_frames);
-//var pickup = sign(pickup_frames);
+
+//keyboard controls for interacting with objects
 var push = sign(push_frames);
 var attack = keyboard_check_pressed(ord("O"));
-
-key_pickup = keyboard_check_pressed(ord("F"));
+var key_pickup = keyboard_check_pressed(ord("F"));
 interaction_radius = image_xscale;
 
 x_velocity = (right - left) * walk_speed;
 
-
+//predicting collision
 var predictedX = x + x_velocity;
 var predictedY = y + y_velocity;
 
@@ -45,22 +43,24 @@ else{ //running
 	}
 }
 
-if (key_pickup){ //picking up objects
+if (key_pickup && distance_to_object(obj_paper) <= 5){ //picking up objects
 	anim_state = 2;	
 	is_picking_up = true;
-	alarm[1] = pickup_time * room_speed;
+	alarm[1] = room_speed;
 }
 	
-if (attack){
+if (attack && !is_jumping){
 	anim_state = 4; 
 	is_attacking = true;
-	alarm[0] = attack_time * room_speed;
+	alarm[0] = room_speed;
 }
 
 if(push){
-	if(distance_to_object(obj_push) <= (interaction_radius)){
-		anim_state = 3;
-		obj_push.x += x_velocity;	
+	if( ((y) >= obj_push.y) && (distance_to_object(obj_push) <= (interaction_radius)) ){ //if the player is NOT on top of the push obj and it's within a certain distance of the push obj
+		if( ((facing == 1) && (x > obj_push.x)) || ((facing == 2) && (x < obj_push.x)) ){ //stops player from "pulling" on push obj
+			anim_state = 3;
+			obj_push.x += x_velocity;
+		}
 	}
 }
 
@@ -83,32 +83,26 @@ if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!)
 	y+= y_velocity;
 
 	if(y_velocity >= 0) {is_falling = true;}
-
-
-/*
-	if(sprite_yoffset > room_height){
-		y = room_height - sprite_yoffset;
-		y_velocity = 0;
 	
-		//state flags
-		on_ground = true;
-		in_air = false;
-		is_falling = false;
-		is_jumping = false;
-	}
-	*/
 }
 
 
 else{ //y collision code
 
-	on_ground = true; //this only applies if the player is ON TOP of the collision box
+	//state flags
+	on_ground = true; //on TOP of collision box
+	is_jumping = false;
+	in_air = false;
+	is_falling = false;
+	
+	//collision
 	predictedY = y;
 	while(!place_meeting(x, predictedY, obj_collidable)){
 		predictedY += sign(y_velocity); //moving one pixel at a time	
 	}
 	predictedY -= sign(y_velocity);
 	y = predictedY;
+	
 	
 }
 

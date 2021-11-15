@@ -45,11 +45,11 @@ switch(anim_state){
 	case 3: //PUSHING
 		switch(facing){
 			case 1: //LEFT
-				sprite_index = spr_player_push_left;
+				if(x > obj_push.x) sprite_index = spr_player_push_left;
 				break;
 				
 			case 2: //RIGHT
-				sprite_index = spr_player_push_right;
+				if (x < obj_push.x) sprite_index = spr_player_push_right;
 				break;
 			
 		}

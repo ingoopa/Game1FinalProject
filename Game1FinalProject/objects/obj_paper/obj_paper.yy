@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_enemy_1_idle",
-    "path": "sprites/spr_enemy_1_idle/spr_enemy_1_idle.yy",
+    "name": "spr_lore_1",
+    "path": "sprites/spr_lore_1/spr_lore_1.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_enemy_controller",
-    "path": "objects/obj_enemy_controller/obj_enemy_controller.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Pick Up Objects",
+    "path": "folders/Objects/Interactable/Pick Up Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_01",
+  "name": "obj_paper",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_enemy_1_idle",
-    "path": "sprites/spr_enemy_1_idle/spr_enemy_1_idle.yy",
+    "name": "spr_y_collision",
+    "path": "sprites/spr_y_collision/spr_y_collision.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_enemy_controller",
-    "path": "objects/obj_enemy_controller/obj_enemy_controller.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Collidable Objects",
+    "path": "folders/Objects/Interactable/Collidable Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_01",
+  "name": "obj_y_collision",
   "tags": [],
   "resourceType": "GMObject",
 }

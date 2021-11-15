@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-image_index = 2;
-image_speed = 0;
+if(obj_item_controller.has_item == true){
+	instance_destroy(self);	
+}
