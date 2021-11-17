@@ -101,8 +101,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Items",
-    "path": "folders/Sprites/Items.yy",
+    "name": "Mound",
+    "path": "folders/Sprites/Items/Mound.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mound_sparkle",
