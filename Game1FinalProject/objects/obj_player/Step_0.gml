@@ -3,7 +3,7 @@
 if (is_attacking) exit;
 if(is_picking_up) exit;
 
-
+//if(place_meeting(x, y, obj_enemy_parent)) obj_heart.enemy_hit = true;
 
 if(keyboard_check(ord("A"))) {self.left_frames++;} else {self.left_frames = 0;}
 if(keyboard_check(ord("D"))) {self.right_frames++;} else {self.right_frames = 0;}
@@ -46,39 +46,42 @@ else{ //running
 if (key_pickup && distance_to_object(obj_paper) <= 5){ //picking up objects
 	anim_state = 2;	
 	is_picking_up = true;
-	alarm[1] = room_speed;
+	alarm[1] = pickup_time;
 }
 	
 if (attack && !is_jumping){
 	anim_state = 4; 
 	is_attacking = true;
-	alarm[0] = room_speed;
+	alarm[0] = attack_time;
 }
 
 if(push){
-	if( ((y) >= obj_push.y) && (distance_to_object(obj_push) <= (interaction_radius)) ){ //if the player is NOT on top of the push obj and it's within a certain distance of the push obj
-		if( ((facing == 1) && (x > obj_push.x)) || ((facing == 2) && (x < obj_push.x)) ){ //stops player from "pulling" on push obj
+	if( ((y) >= obj_push_parent.y) && (distance_to_object(obj_push_parent) <= (interaction_radius)) ){ //if the player is NOT on top of the push obj and it's within a certain distance of the push obj
+		if( ((facing == 1) && (x > obj_push_parent.x)) || ((facing == 2) && (x < obj_push_parent.x)) ){ //stops player from "pulling" on push obj
 			anim_state = 3;
-			obj_push.x += x_velocity;
+			obj_push_parent.x += x_velocity;
 		}
 	}
 }
 
+
 //collision movement
-if(!place_meeting(predictedX, y, obj_collidable)){	//x movement
+if(!place_meeting(predictedX, y, obj_collision_parent)){	//x movement
 	x += x_velocity;	
 }
 
 else{ //x collision code
 	predictedX = x;
-	while(!place_meeting(predictedX, y, obj_collidable)){
+	while(!place_meeting(predictedX, y, obj_collision_parent)){
 		predictedX += sign(x_velocity);	//moving one pixel at a time	
 	}
 	predictedX -= sign(x_velocity); //undo 1 pixel
 	x = predictedX;
 }
 
-if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!) 
+//show_debug_message("y_velocity: " + string(y_velocity));
+
+if(!place_meeting(x, predictedY, obj_collision_parent)){	//y movement (JUMP!) 
 	y_velocity += obj_game_controller.game_gravity;
 	y+= y_velocity;
 
@@ -88,22 +91,27 @@ if(!place_meeting(x, predictedY, obj_collidable)){	//y movement (JUMP!)
 
 
 else{ //y collision code
-
+	
+	if(y_velocity >= 0){
+	
 	//state flags
-	on_ground = true; //on TOP of collision box
-	is_jumping = false;
-	in_air = false;
-	is_falling = false;
+		on_ground = true; //on TOP of collision box
+		is_jumping = false;
+		in_air = false;
+		is_falling = false;
 	
 	//collision
-	predictedY = y;
-	while(!place_meeting(x, predictedY, obj_collidable)){
-		predictedY += sign(y_velocity); //moving one pixel at a time	
+	
+		predictedY = y;
+		while(!place_meeting(x, predictedY, obj_collision_parent)){
+			predictedY += sign(y_velocity); //moving one pixel at a time	
+		}
+		predictedY -= sign(y_velocity);
+		y = predictedY;
+		
+	
 	}
-	predictedY -= sign(y_velocity);
-	y = predictedY;
-	
-	
+
 }
 
 /*
