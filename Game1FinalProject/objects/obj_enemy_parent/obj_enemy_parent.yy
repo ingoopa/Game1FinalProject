@@ -29,7 +29,7 @@
     "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_controller",
+  "name": "obj_enemy_parent",
   "tags": [],
   "resourceType": "GMObject",
 }

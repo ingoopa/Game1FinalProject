@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_enemy_1_idle",
-    "path": "sprites/spr_enemy_1_idle/spr_enemy_1_idle.yy",
+    "name": "spr_push_visible",
+    "path": "sprites/spr_push_visible/spr_push_visible.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_enemy_parent",
-    "path": "objects/obj_enemy_parent/obj_enemy_parent.yy",
+    "name": "obj_push_parent",
+    "path": "objects/obj_push_parent/obj_push_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Collidable Objects",
+    "path": "folders/Objects/Interactable/Collidable Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_01",
+  "name": "obj_push_visible",
   "tags": [],
   "resourceType": "GMObject",
 }
