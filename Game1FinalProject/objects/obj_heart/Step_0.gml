@@ -1,6 +1,7 @@
 /// @description reduce health when pressing space
 
-if (enemy_hit){
+if (enemy_hit) {
+	
     damage = 10;
 
     if (hp_current - damage) >= 0 hp_current -= damage;
@@ -15,6 +16,7 @@ for (var hearts = 0; hearts < maxHearts; hearts ++){
         }
     }
 
+	
 	enemy_hit = false;
 }
 
