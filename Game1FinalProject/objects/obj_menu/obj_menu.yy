@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lore_base",
-    "path": "sprites/spr_lore_base/spr_lore_base.yy",
+    "name": "spr_nineslice",
+    "path": "sprites/spr_nineslice/spr_nineslice.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Pick Up Objects",
-    "path": "folders/Objects/Interactable/Pick Up Objects.yy",
+    "name": "Pause Menu",
+    "path": "folders/Objects/GUI/Pause Menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_paper",
+  "name": "obj_menu",
   "tags": [],
   "resourceType": "GMObject",
 }
