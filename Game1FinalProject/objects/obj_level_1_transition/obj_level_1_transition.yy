@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemy_1_death_full",
-    "path": "sprites/spr_enemy_1_death_full/spr_enemy_1_death_full.yy",
+    "name": "spr_level_1_transition",
+    "path": "sprites/spr_level_1_transition/spr_level_1_transition.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Collidable Objects",
+    "path": "folders/Objects/Interactable/Collidable Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_death_animation",
+  "name": "obj_level_1_transition",
   "tags": [],
   "resourceType": "GMObject",
 }
