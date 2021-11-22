@@ -1,6 +1,7 @@
 /// @description reduce health when pressing space
 
-if (keyboard_check_pressed(vk_space)){
+if (enemy_hit) {
+	
     damage = 10;
 
     if (hp_current - damage) >= 0 hp_current -= damage;
@@ -15,6 +16,8 @@ for (var hearts = 0; hearts < maxHearts; hearts ++){
         }
     }
 
+	
+	enemy_hit = false;
 }
 
 /* //only needed when you want gradual health decrease, doesn't work 100%
