@@ -18,7 +18,8 @@ switch(pos)
 {
 //start game
 case 0:
-	room_goto_next();
+	//TransitionStart(Level1, seq_fade_out, seq_fade_in);
+	room_goto(Level1);
 	audio_pause_sound(sfx_siren_01);
 	break;
 	

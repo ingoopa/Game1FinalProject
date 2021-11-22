@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_room_transition",
+    "path": "sprites/spr_room_transition/spr_room_transition.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Inventory",
-    "path": "folders/Objects/GUI/Inventory.yy",
+    "name": "Collidable Objects",
+    "path": "folders/Objects/Interactable/Collidable Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_inventory_gui",
+  "name": "obj_room_transition_collision",
   "tags": [],
   "resourceType": "GMObject",
 }
