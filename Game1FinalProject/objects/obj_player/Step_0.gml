@@ -28,8 +28,12 @@ var predictedY = y + y_velocity;
 //movement controls
 if((right - left) == 0){ //idle
 	anim_state = 0;
+	is_running = false;
 }
 else{ //running
+	
+	is_running = true;
+	
 	switch(max(left_frames, right_frames)){
 		case left_frames:
 			anim_state = 1;
@@ -73,11 +77,11 @@ if (attack && !is_jumping){
 
 if(push){
 	obj_push_parent.pushing = true;
-	if(within_distance) {
-		anim_state = 3;	
-		//audio_play_sound(sfx_pushing_01, 5, false);
-	}
 	
+	if(within_distance) anim_state = 3;	
+	
+	
+		
 }
 
 if(!push) obj_push_parent.pushing = false;

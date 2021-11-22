@@ -2,8 +2,8 @@
 
 if paused == true
 {
-	temp_w = camera_get_view_width(view_camera[0]);
-	temp_h = camera_get_view_height(view_camera[0]);
+//	temp_w = camera_get_view_width(view_camera[0]);
+//	temp_h = camera_get_view_height(view_camera[0]);
 	
 	instance_deactivate_all(true);
 	draw_set_alpha(0.5);
@@ -17,6 +17,6 @@ if paused == true
 	draw_set_color(c_white);
 
 	draw_sprite(spr_lore_1, 1, x + 430, y + 300);
-	draw_text(x + 430, y + 710, "Press Z to Return to Game");
+	draw_text(x + 430, y + 710, "Press Esc to Return to Game");
 	
 }

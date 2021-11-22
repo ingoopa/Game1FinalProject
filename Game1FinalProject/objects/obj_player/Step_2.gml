@@ -51,7 +51,7 @@ switch(anim_state){
 			case 2: //RIGHT
 				sprite_index = spr_player_push_right;
 				break;
-			
+				
 		}
 		
 		image_speed = anim_speed;
