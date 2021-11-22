@@ -46,23 +46,34 @@ else{ //running
 if (key_pickup && distance_to_object(obj_paper) <= 5){ //picking up objects
 	anim_state = 2;	
 	is_picking_up = true;
-	alarm[1] = pickup_time;
+	alarm[1] = pickup_time * room_speed;
 }
 	
 if (attack && !is_jumping){
 	anim_state = 4; 
 	is_attacking = true;
-	alarm[0] = attack_time;
+	alarm[0] = attack_time * room_speed;
+	
+	var x_offset = x;
+	
+	switch(facing){
+		case 1: //LEFT
+			x_offset = x - hitbox_offset;
+			break;
+			
+		case 2: //RIGHT
+			x_offset = x + hitbox_offset;
+			break;
+	}
+	
+	instance_create_layer(x_offset, y, "Instances", obj_hitbox);
 }
 
 if(push){
-	if( ((y) >= obj_push_parent.y) && (distance_to_object(obj_push_parent) <= (interaction_radius)) ){ //if the player is NOT on top of the push obj and it's within a certain distance of the push obj
-		if( ((facing == 1) && (x > obj_push_parent.x)) || ((facing == 2) && (x < obj_push_parent.x)) ){ //stops player from "pulling" on push obj
-			anim_state = 3;
-			obj_push_parent.x += x_velocity;
-		}
-	}
+	obj_push_parent.pushing = true;
 }
+
+if(!push) obj_push_parent.pushing = false;
 
 
 //collision movement

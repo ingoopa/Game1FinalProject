@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_push_visible",
-    "path": "sprites/spr_push_visible/spr_push_visible.yy",
+    "name": "spr_enemy_1_death_sfx",
+    "path": "sprites/spr_enemy_1_death_sfx/spr_enemy_1_death_sfx.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_push_parent",
-    "path": "objects/obj_push_parent/obj_push_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,15 +20,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Collidable Objects",
-    "path": "folders/Objects/Interactable/Collidable Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_push_visible",
+  "name": "obj_enemy_death_animation",
   "tags": [],
   "resourceType": "GMObject",
 }
