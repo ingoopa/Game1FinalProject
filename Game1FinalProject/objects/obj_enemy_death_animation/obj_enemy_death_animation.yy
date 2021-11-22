@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemy_1_death_sfx",
-    "path": "sprites/spr_enemy_1_death_sfx/spr_enemy_1_death_sfx.yy",
+    "name": "spr_enemy_1_death_full",
+    "path": "sprites/spr_enemy_1_death_full/spr_enemy_1_death_full.yy",
   },
   "solid": false,
   "visible": true,
