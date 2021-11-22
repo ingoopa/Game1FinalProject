@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lore_base",
-    "path": "sprites/spr_lore_base/spr_lore_base.yy",
+    "name": "spr_mound_sparkle_pause",
+    "path": "sprites/spr_mound_sparkle_pause/spr_mound_sparkle_pause.yy",
   },
   "solid": false,
   "visible": true,
