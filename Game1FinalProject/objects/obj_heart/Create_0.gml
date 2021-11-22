@@ -1,7 +1,7 @@
 /// @description health arrays and var defines
 maxHearts = 5;
 hp_current = 100;
-hp_max = hp_current;
+hp_max = health;
 /*hp_temp = hp_current; //gradually reduce over tiem until it equal hp_current
 shake = 0; //This is how much the heart will be moving up/down by*/
 

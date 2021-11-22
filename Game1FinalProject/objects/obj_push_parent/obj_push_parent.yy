@@ -30,8 +30,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Collidable Objects",
-    "path": "folders/Objects/Interactable/Collidable Objects.yy",
+    "name": "the parents",
+    "path": "folders/Objects/Interactable/Collidable Objects/the parents.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_push_parent",
