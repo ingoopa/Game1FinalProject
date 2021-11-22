@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Room Transitions",
-    "path": "folders/Scripts/Room Transitions.yy",
+    "name": "Transitions",
+    "path": "folders/Scripts/Transitions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scp_transitions",
+  "name": "scp_transition",
   "tags": [],
   "resourceType": "GMScript",
 }
