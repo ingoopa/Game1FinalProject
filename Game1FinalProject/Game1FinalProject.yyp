@@ -30,6 +30,7 @@
     {"id":{"name":"sfx_melee_01","path":"sounds/sfx_melee_01/sfx_melee_01.yy",},"order":0,},
     {"id":{"name":"spr_push","path":"sprites/spr_push/spr_push.yy",},"order":1,},
     {"id":{"name":"sfx_melee_02","path":"sounds/sfx_melee_02/sfx_melee_02.yy",},"order":1,},
+    {"id":{"name":"spr_lore_2","path":"sprites/spr_lore_2/spr_lore_2.yy",},"order":2,},
     {"id":{"name":"obj_push_invisible","path":"objects/obj_push_invisible/obj_push_invisible.yy",},"order":2,},
     {"id":{"name":"spr_mound_sparkle_pause","path":"sprites/spr_mound_sparkle_pause/spr_mound_sparkle_pause.yy",},"order":2,},
     {"id":{"name":"spr_player_push_left","path":"sprites/spr_player_push_left/spr_player_push_left.yy",},"order":1,},
@@ -229,7 +230,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "Game1FinalProject",
