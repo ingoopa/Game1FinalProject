@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Collidable Objects",
-    "path": "folders/Objects/Interactable/Collidable Objects.yy",
+    "name": "the parents",
+    "path": "folders/Objects/Interactable/Collidable Objects/the parents.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_collision_parent",

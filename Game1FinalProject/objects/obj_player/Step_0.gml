@@ -46,6 +46,7 @@ else{ //running
 if (key_pickup && distance_to_object(obj_paper) <= 5){ //picking up objects
 	anim_state = 2;	
 	is_picking_up = true;
+	audio_play_sound(sfx_crumped_paper, 5, false);
 	alarm[1] = pickup_time * room_speed;
 }
 	
@@ -67,10 +68,16 @@ if (attack && !is_jumping){
 	}
 	
 	instance_create_layer(x_offset, y, "Instances", obj_hitbox);
+	audio_play_sound(sfx_melee_02, 5, false);
 }
 
 if(push){
 	obj_push_parent.pushing = true;
+	if(within_distance) {
+		anim_state = 3;	
+		//audio_play_sound(sfx_pushing_01, 5, false);
+	}
+	
 }
 
 if(!push) obj_push_parent.pushing = false;
@@ -91,6 +98,8 @@ else{ //x collision code
 }
 
 //show_debug_message("y_velocity: " + string(y_velocity));
+
+if(is_falling) alarm[2] = 1;
 
 if(!place_meeting(x, predictedY, obj_collision_parent)){	//y movement (JUMP!) 
 	y_velocity += obj_game_controller.game_gravity;

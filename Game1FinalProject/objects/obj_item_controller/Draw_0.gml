@@ -16,7 +16,7 @@ if paused == true
 	draw_set_font(ft_title_text);
 	draw_set_color(c_white);
 
-	draw_sprite(spr_lore_1, 1, (temp_w/2 + 55), (temp_h/2));
-	draw_text((temp_w/2) + 50, (temp_h) - 30, "Press Z to Return to Game");
+	draw_sprite(spr_lore_1, 1, x + 430, y + 300);
+	draw_text(x + 430, y + 710, "Press Z to Return to Game");
 	
 }
