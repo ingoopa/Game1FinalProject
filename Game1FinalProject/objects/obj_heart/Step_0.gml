@@ -4,6 +4,27 @@ if (enemy_hit) {
 	
     damage = 10;
 
+    if (health - damage) >= 0 health -= damage;
+    else health = 0;
+
+for (var hearts = 0; hearts < maxHearts; hearts ++){
+    if health < a_hearts[hearts, e_hearts.full_value]{
+            a_hearts[hearts, e_hearts.index] = 1;
+        }
+    if health < a_hearts[hearts, e_hearts.half_value]{
+            a_hearts[hearts, e_hearts.index] = 0;
+        }
+    }
+
+	
+	enemy_hit = false;
+}
+
+/*
+if (enemy_hit) {
+	
+    damage = 10;
+
     if (hp_current - damage) >= 0 hp_current -= damage;
     else hp_current = 0;
 
