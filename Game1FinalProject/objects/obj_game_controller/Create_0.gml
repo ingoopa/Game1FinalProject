@@ -14,5 +14,6 @@ option[1] = "exit";
 
 op_length = array_length(option);
 
-audio_play_sound(sfx_planet, 5, false);
+audio_pause_sound(sfx_planet);
+audio_play_sound(sfx_title_01, 5, true);
 
