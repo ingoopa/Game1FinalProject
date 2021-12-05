@@ -18,11 +18,11 @@ switch(pos)
 {
 //start game
 case 0:
-	room_goto_next();
-	audio_pause_sound(sfx_siren_01);
+	TransitionStart(rm_cutscene, seq_fade_out, seq_fade_in);
 	break;
 	
 case 1:
+	room_goto(rm_credits);
 	
 	break;
 	
