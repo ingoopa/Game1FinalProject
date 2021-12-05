@@ -46,6 +46,7 @@
     {"id":{"name":"obj_controls_text","path":"objects/obj_controls_text/obj_controls_text.yy",},"order":1,},
     {"id":{"name":"spr_player_jump_right","path":"sprites/spr_player_jump_right/spr_player_jump_right.yy",},"order":0,},
     {"id":{"name":"sfx_jump_landing","path":"sounds/sfx_jump_landing/sfx_jump_landing.yy",},"order":0,},
+    {"id":{"name":"sfx_click_01","path":"sounds/sfx_click_01/sfx_click_01.yy",},"order":5,},
     {"id":{"name":"spr_tilesheet_oga","path":"sprites/spr_tilesheet_oga/spr_tilesheet_oga.yy",},"order":1,},
     {"id":{"name":"sfx_seismic_02","path":"sounds/sfx_seismic_02/sfx_seismic_02.yy",},"order":1,},
     {"id":{"name":"spr_tilesheet_wip","path":"sprites/spr_tilesheet_wip/spr_tilesheet_wip.yy",},"order":0,},
@@ -244,7 +245,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.7.603",
   },
   "resourceVersion": "1.4",
   "name": "Game1FinalProject",

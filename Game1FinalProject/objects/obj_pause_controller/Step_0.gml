@@ -19,6 +19,8 @@ if room == Level1
 		up_key = keyboard_check_pressed(ord("W"));
 		down_key = keyboard_check_pressed(ord("S"));
 		accept_key = keyboard_check_pressed(vk_enter);
+		
+		if(up_key || down_key || accept_key) audio_play_sound(sfx_click_01, 10, false);
 
 		//move through the menu
 		pos += down_key - up_key;
@@ -33,7 +35,7 @@ if room == Level1
 		//start game
 		case 0:
 			room_goto(rm_title_card);
-			audio_pause_sound(sfx_planet);
+			audio_pause_all();
 			break;
 	
 		case 1:
