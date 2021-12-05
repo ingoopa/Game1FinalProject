@@ -11,4 +11,4 @@ if room == Level1
 			instance_activate_all();
 		}
 	}
-}
+} 
