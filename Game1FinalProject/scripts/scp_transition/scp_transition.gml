@@ -17,7 +17,7 @@ function TransitionStart(_roomTarget, _typeOut, _typeIn)
         global.midTransition = true;
         global.roomTarget = _roomTarget;
         TransitionPlaceSequence(_typeOut);
-        layer_set_target_room(_roomTarget);
+        layer_set_target_room( _roomTarget);
         TransitionPlaceSequence(_typeIn);
 
         return true;
@@ -25,7 +25,7 @@ function TransitionStart(_roomTarget, _typeOut, _typeIn)
     else return false
 }
 
-//Called as a moment at the end of an "Out" transition sequence
+//Called as a mom ent at the end of an "Out" transition sequence
 function TransitionChangeRoom()
 {
     layer_sequence_destroy(self.elementID);
