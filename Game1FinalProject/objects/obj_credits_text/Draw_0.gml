@@ -4,7 +4,7 @@ draw_set_font(ft_title_text);
 draw_set_valign(fa_top);
 draw_set_halign(fa_center);
 
-draw_text(room_width/2, 50, "credits \n\nBlarget2 on Open Game Art\nPedro Medeiros on Patreon\nPeyton Burnham on Youtube\nDragoniteSpam on Youtube\nShaun Spalding on Youtube");
+draw_text(room_width/2, 50, "credits \n\nBlarget2 on Open Game Art\nPedro Medeiros on Patreon\nPeyton Burnham on Youtube\nDragoniteSpam on Youtube\nShaun Spalding on Youtube\nSFX By Nicole Marie T\nVinrax on Open Game Art\npixelsphere.org / The Cynic Project\ncynicmusic.com\n");
 
 //draw the menu background
 
