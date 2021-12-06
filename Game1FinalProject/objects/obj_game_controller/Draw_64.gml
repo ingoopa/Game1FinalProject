@@ -52,7 +52,7 @@ else if (obj_game_controller.game_state != 1 && room == Level2){
 	{
 		var _c = c_black;
 		if pos == i {_c = c_yellow};
-		draw_text_color((rm_x + 391), (rm_y - 460) + op_border + op_space*i, option[i], _c, _c, _c, _c, 1);
+		draw_text_color((x + 84), (y - 361) + op_border + op_space*i, option[i], _c, _c, _c, _c, 1);
 	}
 }
 
