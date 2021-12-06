@@ -30,7 +30,7 @@
     "path": "folders/Objects/Interactable/Pick Up Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_paper",
+  "name": "obj_paper_02",
   "tags": [],
   "resourceType": "GMObject",
 }
