@@ -1,11 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-/*
-if(on_ground && !is_running) audio_play_sound(sfx_jump_landing, 5, false);
 
-else if(on_ground && is_running) {
-	audio_pause_sound(sfx_jump_landing);
-	audio_play_sound(sfx_jump_landing, 5, false);
+if(distance_to_object(obj_paper_02) <= 5){
+	obj_item_controller.has_paper_02 = true;
 }
 
-else audio_pause_sound(sfx_jump_landing);
+is_picking_up = false;
+anim_state = 0;

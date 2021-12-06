@@ -53,6 +53,13 @@ if (key_pickup && distance_to_object(obj_paper) <= 5){ //picking up objects
 	audio_play_sound(sfx_crumped_paper, 5, false);
 	alarm[1] = pickup_time * room_speed;
 }
+
+if (key_pickup && distance_to_object(obj_paper_02) <= 5){ //picking up objects
+	anim_state = 2;	
+	is_picking_up = true;
+	audio_play_sound(sfx_crumped_paper, 5, false);
+	alarm[2] = pickup_time * room_speed;
+}
 	
 if (attack && !is_jumping){
 	anim_state = 4; 
