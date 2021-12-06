@@ -1,4 +1,5 @@
 /// @description
+audio_play_sound(sfx_click_01, 10, false);
 
 var _len = string_length(text[text_current]);
 if (char_current < _len)
