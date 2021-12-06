@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Controllers.yy",
+    "name": "Pause Menu",
+    "path": "folders/Objects/GUI/Pause Menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pause_controller",
+  "name": "obj_pause_controller_1",
   "tags": [],
   "resourceType": "GMObject",
 }
