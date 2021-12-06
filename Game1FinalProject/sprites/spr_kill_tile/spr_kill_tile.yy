@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Interactable",
-    "path": "folders/Sprites/Interactable.yy",
+    "name": "Collidable Objects",
+    "path": "folders/Sprites/Interactable/Collidable Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_kill_tile",
